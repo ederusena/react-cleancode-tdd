@@ -31,3 +31,20 @@ npm i -D lint-staged husk
 }
 ```
 
+### Add jest
+```sh
+npm i -D jest @types/jest ts-jest
+```
+
+#### configure jest.config.js
+```js
+module.exports = {
+  roots: ['<rootDir>/src'],
+  collectCoverageFrom: ['src/**/*.{js,jsx,ts,tsx}'],
+  coverageDirectory: 'coverage',
+  testEnvironment: 'node',
+  transform: {
+    '.+\\.(js|jsx|ts|tsx)$': 'ts-jest'
+  }
+}
+```
