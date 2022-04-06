@@ -6,4 +6,28 @@
     "typescript": "^4.6.3"
 
 ### Initialize typescript config file
-* npx tsc --init
+```sh
+npx tsc --init
+```
+
+### Avoid commit with errors
+```sh
+npm i -D lint-staged husk
+```
+
+#### configure .lintstagerc.json
+```json
+{
+  "*.{ts,tsx}": ["eslint 'src/**' --fix"]
+}
+```
+
+#### configure .huskyrc.json
+```json
+{
+  "hooks": {
+    "pre-commit": "lint-staged"
+  }
+}
+```
+
