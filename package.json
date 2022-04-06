@@ -1,0 +1,23 @@
+{
+  "name": "react-cleancode-tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ederusena/react-cleancode-tdd.git"
+  },
+  "keywords": [],
+  "author": "Eder Sena <eder.sena@live.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ederusena/react-cleancode-tdd/issues"
+  },
+  "homepage": "https://github.com/ederusena/react-cleancode-tdd#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^4.1.1"
+  }
+}
