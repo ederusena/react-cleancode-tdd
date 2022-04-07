@@ -28,7 +28,6 @@
     "rootDir": "src",
     "baseUrl": "src",
     "resolveJsonModule": true,
-    "isolatedModules": true,
     "noEmit": true
   },
   "include": [
